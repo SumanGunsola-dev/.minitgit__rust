@@ -9,3 +9,4 @@ hex-literal = "0.4"
 clap = { version = "4.6.0", features = ["derive"] }
 flate2 = "1.1.9"
 hex = "0.4.3"
+main = "0.1.0"

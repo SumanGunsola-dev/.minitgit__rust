@@ -10,15 +10,15 @@ struct Cli {
 #[derive(Subcommand, Debug)]
 enum Command {
     Init,
-    Add,
+    Add { path: String },
     Commit,
 }
 
 fn main() {
     let cli = Cli::parse();
     match cli.command {
-        Command::Add => {
-            commands::add::add();
+        Command::Add { path } => {
+            commands::add::add(&path);
         }
         Command::Commit => {
             println!("fn main Commit");

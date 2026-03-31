@@ -208,6 +208,12 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b5b646652bf6661599e1da8901b3b9522896f01e736bad5f723fe7a3a27f899d"
 
 [[package]]
+name = "main"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "43fd9f6cab84206b40689c3dae0f966acede03993c904294a7b9ab3c19671fe2"
+
+[[package]]
 name = "mini_git_rust"
 version = "0.1.0"
 dependencies = [
@@ -215,6 +221,7 @@ dependencies = [
  "flate2",
  "hex",
  "hex-literal",
+ "main",
  "sha1",
 ]
 
